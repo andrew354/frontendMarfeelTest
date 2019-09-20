@@ -1,0 +1,24 @@
+{
+  "name": "marfeel-test",
+  "version": "0.1.0",
+  "description": "test for marfeel",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "build": "webpack"
+  },
+  "author": "andrea pani andreapani92@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "url-loader": "^2.1.0"
+  }
+}

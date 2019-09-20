@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      class="js-site-favicon"
+      href="https://github.githubassets.com/favicon.ico"
+    />
+    <title>GitHub repos finder</title>
+  </head>
+
+  <body>
+    <div id="loading-container">
+      <div id="loading"></div>
+    </div>
+    <div id="container">
+      <div id="container-form">
+        <h3>GitHub user finder</h3>
+        <form id="form">
+          <input
+            type="text"
+            id="input-search"
+            placeholder="Type username.."
+            value=""
+          />
+          <button type="submit" id="btn-search">Search</button>
+        </form>
+        <div id="errorDiv"></div>
+
+        <div id="results">
+          <div id="user-info">
+            <img id="user-image" alt="user image" />
+            <div id="user-profile">
+              <p id="user-login"></p>
+              <h1 id="user-name"></h1>
+              <p id="user-bio"></p>
+            </div>
+          </div>
+
+          <div id="repos-results">
+            <h3 id="repos-count"></h3>
+            <div id="repos-list"></div>
+          </div>
+          <div id="no-repos-list">No repos to show</div>
+        </div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

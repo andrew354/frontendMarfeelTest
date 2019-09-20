@@ -1,0 +1,16 @@
+.DS_Store
+.thumbs.db
+node_modules
+# Editor directories and files
+.idea
+.vscode
+*.suo
+.ntvs
+*.njsproj
+*.sln
+# Logs
+logs
+*.log
+npm-debug.log*
+# Optional npm cache directory
+.npm
