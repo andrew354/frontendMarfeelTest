@@ -14,3 +14,10 @@ logs
 npm-debug.log*
 # Optional npm cache directory
 .npm
+# Firebase
+.firebase/
+firebase-debug.log*
+.firebaserc
+logs
+*.log
+firebase.json
